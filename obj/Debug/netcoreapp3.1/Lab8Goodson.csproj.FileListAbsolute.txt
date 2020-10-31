@@ -1,0 +1,13 @@
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.exe
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.deps.json
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.runtimeconfig.json
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.runtimeconfig.dev.json
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.dll
+C:\Users\goods\source\repos\Lab8Goodson\bin\Debug\netcoreapp3.1\Lab8Goodson.pdb
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.csprojAssemblyReference.cache
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.AssemblyInfoInputs.cache
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.AssemblyInfo.cs
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.csproj.CoreCompileInputs.cache
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.dll
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.pdb
+C:\Users\goods\source\repos\Lab8Goodson\obj\Debug\netcoreapp3.1\Lab8Goodson.genruntimeconfig.cache
