@@ -10,22 +10,20 @@ namespace Lab8Goodson
         static void Main(string[] args)
         {
 
-            
-
             try
-                {
-                    GetUserRequest();
-                }
-                catch (IndexOutOfRangeException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Console.WriteLine(ex.StackTrace);
-                }
-                catch (FormatException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Console.WriteLine(ex.StackTrace);
-                }
+            {
+                GetUserRequest();
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
         }
 
         static void GetUserRequest()
@@ -48,7 +46,7 @@ namespace Lab8Goodson
                 {
                     if (CheckIfNameStudent(student, classmates)){
 
-                        keepGoing = GetFact(GetIndexOfStudentName(student, classmates), classmates);
+                        keepGoing = GetFact(Array.IndexOf(classmates, student), classmates);
                     }
                     
                     Console.WriteLine("\nEither that student doesn't exist or you didn't enter a whole number./nPlease try again and enter their name OR a number between 0 and 11: ");
@@ -81,11 +79,6 @@ namespace Lab8Goodson
         static bool CheckIfNameStudent(string student, string [] classmates)
         {
             return classmates.Contains(student);
-        }
-
-        static int GetIndexOfStudentName(string student, string [] classmates)
-        {
-            return Array.IndexOf(classmates, student);
         }
 
         static void GetStudentInfo(int studentID, string fact, string name) //really wanted to try out generics here for allowing entry of name or ID. couldn't figure it out though.
